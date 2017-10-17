@@ -5,14 +5,12 @@
   android:layout_height="wrap_content"
   xmlns:app="http://schemas.android.com/apk/res-auto"
   android:padding="10dp"
-  android:paddingStart="50dp"
-  android:paddingEnd="50dp"
   android:gravity="center_vertical">
 
   <ImageView
     android:id="@+id/die0View"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
     android:layout_margin="5dp"
     app:layout_constraintLeft_toLeftOf="parent"
     app:layout_constraintRight_toLeftOf="@+id/die1View"
@@ -23,8 +21,8 @@
 
   <ImageView
     android:id="@+id/die1View"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
     android:layout_margin="5dp"
     app:layout_constraintLeft_toRightOf="@+id/die0View"
     app:layout_constraintRight_toLeftOf="@+id/rollView"
@@ -37,7 +35,7 @@
     android:id="@+id/rollView"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
-    app:layout_margin="5dp"
+    android:layout_margin="5dp"
     android:textSize="20sp"
     app:layout_constraintLeft_toRightOf="@+id/die1View"
     app:layout_constraintRight_toLeftOf="@+id/resultView"
